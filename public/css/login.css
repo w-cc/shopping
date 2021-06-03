@@ -1,0 +1,347 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #555;
+	font-size: 15px;
+	line-height: 1.7;
+	background-color: #f7fafc;
+	text-align: center;
+	font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+}
+html,body{
+	height: 100%;
+}
+body,ul,ol,li,h1,h2,h3,h4,h5,p{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+#particles-js {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#wrapper{
+	width:300px;
+	margin:0 auto;
+	padding-top:30px;
+	position: relative;
+}
+h2{
+	margin:30px 0;
+	font-weight: 400;
+	font-size: 18px;
+}
+.switch_nav{
+	margin:10px 0 20px;
+}
+.switch_nav a{
+	color: #878787;
+	font-size: 18px;
+	text-align: center;
+	margin:0 10px;
+	display: inline-block;
+}
+.switch_nav a:hover{
+	color: #555;
+}
+.switch_nav .switch_btn.on{
+	color: #0f88eb;
+	border-bottom: 2px solid #0f88eb;
+}
+.switch_nav .switch_btn{
+	color: #878787;
+
+}
+.switch_btn_focus{
+	color: #0f88eb;
+	border-bottom: 2px solid #0f88eb;
+}
+.switch_btn{
+	color:#878787;
+	text-decoration: none; 
+}
+.group_input {
+	position: relative;
+	text-align: left;
+}
+.group_input input{
+	width: 274px;
+	padding: 16px 12px;
+	margin: -1px;
+	border:1px solid #d5d5d5;
+	border-radius: 3px;
+	background-color: #fff;
+}
+.group_input li {
+	width: 800px;
+	position: relative;
+}
+.group_input li .msg {
+    position: absolute;
+    left: 306px;  
+}
+.group_input li .msg.onError {
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+	color: red;
+}
+.group_input li .msg.onSuccess {
+    background: #f7fafc url(../img/reg_bg.png) no-repeat;
+    background-position: -9px -4px;
+    color: transparent;
+    width: 18px;
+    height: 18px;
+    top: 14px;
+}
+.agreement-tip{
+	font-size: 90%;
+	color: #878787;
+}
+
+/*#signup{
+	display: block;
+}
+#login{
+	display: none;
+}*/
+
+.states{
+	position: relative;
+	width:100%;
+	height: 20px;
+	font-size: 90%;
+	margin-top: 18px;
+	color: #878787;
+	overflow: hidden;
+}
+.states .right a{
+	color: #555;
+}
+.states>.social_account{
+	position: absolute;
+	left: 0;
+	color: #878787;
+}
+
+.states>.left{
+	float: left;
+}
+.states>.right{
+	float: right;
+}
+.three_MinIcon{
+	margin-left:10px;
+	display: inline;
+}
+.three_MinIcon a{
+	margin-left:20px;
+}
+.states .social_account:hover,.states .three_MinIcon img:hover{
+	color: #555;
+}
+.states img{
+	display: none;
+}
+
+.submit_btn{
+	width: 100%;
+	box-shadow: none;
+	border:0;
+	line-height: 45px;
+	font-size: 15px;
+	display: block;
+	margin:20px 0;
+	color: #fff;
+	background-color: #0f88eb;
+	border-radius: 3px;
+}
+.download_btn{
+	border:1px solid #0f88eb;
+	color: #0f88eb;
+	background-color: transparent;
+}
+.QRcode_btn{
+	position: relative;
+
+}
+.QRcode{
+	position: absolute;
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.5);
+	width: 310px;
+	height: 310px;
+	bottom: 70px;
+	display: none;
+
+}
+.QRcode .box{
+	position: relative;
+	width: 0;
+	height:0;
+	border-left:20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top:20px solid #fff;
+	filter: drop-shadow(1px 1px 5px #878787);
+	left:50%;
+	bottom:0;
+	overflow: hidden;
+	z-index: 1;
+	
+}
+.QRcode img{
+	margin:30px;
+}
+#footer span,#footer a{
+	color: #aebdc9;
+	font-size: 80%;
+	margin-left:6px;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+    display: block;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-size: 100%;
+}
+
+address,cite,dfn,em,i,u,var {
+    font-style: normal;
+}
+strong,b {
+	font-weight: normal;
+}
+code,kbd,pre,samp {
+    font-family: courier new,courier,monospace;
+}
+ul,ol,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: #0f88eb;  /*----- 主色调颜色 -----*/
+}
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+legend {
+    color: #333;
+}
+
+fieldset,img {
+    border: 0;
+}
+
+img,object {
+    vertical-align: middle;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    color: #333;
+    font-family: "Microsoft YaHei",PingFangSC-Regular,Verdana,Arial,Helvetica,sans-serif,"宋体";
+    font-size: 12px;
+}
+
+/*----- 去掉虚框 -----*/
+input:focus, select:focus {outline: 0 !important;} 
+button::-moz-focus-inner,
+input::-moz-focus-inner {border-color:transparent!important;}
+
+
+/*----- mobile -----*/
+html {-webkit-text-size-adjust: 100%;}
+a,button,input,optgroup,select,textarea {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+} 
+/*去除系统默认appearance的样式,常用于IOS下移除原生样式*/
+input[type="submit"], input[type="reset"], input[type="button"],input[type="text"],input[type="password"],textarea, button { 
+	-webkit-appearance: none !important; 
+}
+
+/*----- 美化checkbox和radio -----*/
+input[type="checkbox"],
+input[type="radio"] {
+	width: 20px;
+	height: 20px;
+	background-color:#fff;
+	-webkit-appearance:none;
+	border:1px solid #c9c9c9;
+	border-radius: 2px;
+	outline: none;
+}
+input[type="radio"] {border-radius: 50%;}
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+	background-color: #ff7800;
+	border-color: #ff7800;
+	background-clip: content-box;
+	padding:2px;
+}
+
+/*a {
+	text-decoration:none;
+	word-wrap:break-word;
+	outline:none;
+	transition:all 0.2s ease-in-out;
+	-webkit-transition:all 0.2s ease-in-out;
+	-moz-transition:all 0.2s ease-in-out;
+	-o-transition:all 0.2s ease-in-out;
+	-ms-transition:all 0.2s ease-in-out;
+}*/
+
+/*----- 占位符样式 -----*/
+/*除了Firefox是 ::[prefix]placeholder，其他浏览器都是使用 ::[prefix]input-placeholder*/
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+	color: #c7c7c7;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {  /*----- IE10+ -----*/
+	color: #c7c7c7;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {  /*----- Firefox4-18 -----*/
+	color: #c7c7c7;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {  /*----- Firefox19+ -----*/
+	color: #c7c7c7;
+}
+input:focus,
+textarea:focus {
+	border:1px solid #0f88eb;  /*----- 主色调颜色 -----*/
+	/*box-shadow: 0 0 10px #ffdb81;*/
+}

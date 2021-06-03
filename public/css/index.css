@@ -1,0 +1,193 @@
+
+.topbar-wrapper{
+    /* 设置宽度全屏 */
+    width: 100%;
+    height: 40px;
+    background-color:#333;
+    line-height: 40px;
+}
+.topbar a{
+    font-size: 14px;
+    color:#b0b0b0;
+    display: block;
+}
+.topbar .line{
+    color:#b0b0b0;
+    margin: 0 7px;
+}
+.service {
+    display: inline-flex;
+}
+.shop-cart{
+    display: inline-flex;
+    float: right;
+    margin-left: 30px;
+    background-color: #424242;
+    width: 100px;
+    justify-content: center;
+}
+.user-info{
+    display: inline-flex;
+    float: right;
+}
+.header-wrapper{
+    height: 100px;
+    line-height: 100px;
+}
+.nav-wrapper li a{
+    display: block;
+    font-size: 16px;
+    margin-left: 20px;
+}
+.logo{
+    display: inline-flex;
+    justify-content: center;
+    /* margin-right:100px ; */
+}
+.nav-wrapper{
+    display:inline-flex;
+    justify-content: center;
+}
+.nav {
+    display:inline-flex;
+    justify-content: center;
+}
+.ss-wrapper{
+    display:inline-flex;
+    width: 296px;
+    height: 50px;
+    position: relative;
+   
+}
+.ss-wrapper .ss-inp{
+    
+    width: 244px;
+    height: 50px;
+    padding: 0 10PX;
+    border:1px solid rgb(224,224,244);
+    outline: none;
+    font-size: 16px;
+    justify-content: flex-end;
+    margin-left: 250px;
+
+}
+.ss-wrapper  .ss-btn{
+   position: absolute;
+    width: 52px;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+    color: #616161;
+    font-size: 20px;
+    border:1px solid rgb(224,224,244);
+    border-left: none;
+    outline: none;
+    top:25px
+}
+.shop-cart .iconfont{
+font-size: 15px
+}
+.all-goods{
+    margin-right: 60px;
+}
+.all-goods-wrapper{
+    position: relative;
+}
+.left-menu{
+position: absolute;
+left: -32px;
+width: 234px;
+height: 460px;
+position: absolute;
+padding-top: 20px;
+background-color: rgba(0,0,0,.6);
+z-index: 999;
+
+}
+.left-menu li {
+height: 40px;
+width: 234px;
+line-height: 40px;
+margin-top: 2px;
+
+
+}
+.left-menu li:hover{
+    color: #fff;
+    background-color: #ff6700;
+
+}
+.left-menu li a{
+    color: #fff;
+}
+.left-menu .iconfont{
+    float: right;
+    margin-right: 15px;
+}
+.banbaner{
+    position: relative;
+    height: 460px;
+    overflow: hidden;
+  }
+  .img-list{
+      position:absolute;
+      left: 0;
+  }
+.banbaner .img-list li img{
+width: 1226px;
+height: 460px;
+  }
+  /* 设置banbaner */
+  .banbaner .img-list li{
+     width:1226px ;
+      float: left;
+  }
+  .banbaner img{
+      width: 100%;
+  }
+  .pointer{
+      position: absolute;
+      bottom:22px;
+      /* right: 1005px; */
+      margin-left: 1100px;
+  }
+  .pointer a{
+      float: left;
+      width: 10px;
+      height: 10px;
+      border: 2px rgba(255,255,255,.4) solid;
+      border-radius: 50%;
+      background-color:rgba(0,0,0,0.4);
+      margin-left:6px ;
+  }
+  .pointer a:hover,
+  .pointer a:active{
+      background-color: rgba(255,255,255,.4);
+      border: ragb(0,0,0,0.4) solid;
+  }
+  /* 设置两个箭头 */
+  .prev-next a{
+    position: absolute;
+      width: 41px;
+      height: 69px;
+  background-image: url(../img/icon-slides.png);
+      /* background-color: red; */
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  }
+  .prev{
+      left: 234px;
+      background-position: -84px 0;
+  }
+  .next{
+      right: 0;
+   
+      background-position:-125px 0;
+  }
+  .next:hover{
+      background-position:-42px 0;
+  }
+  .prev:hover{
+      background-position:0 0;
+  }
